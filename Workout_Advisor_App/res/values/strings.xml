@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WorkoutAdvisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="workout">Workouts Here!</string>
+    <string name="find_workout">New Button</string>
+
+    // For dropdown Menu
+    <string-array name="workout_types">
+        <item>Chest</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Shoulders</item>
+
+    </string-array>
+</resources>
