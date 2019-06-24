@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="241dp"
+        android:text="Password"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:layout_toStartOf="@+id/passwordInput"
+        android:text="Username"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="22dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/usernameInput"
+        android:layout_alignTop="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="205dp"
+        android:onClick="saveInfo"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/usernameInput"
+        android:layout_alignTop="@+id/button"
+        android:onClick="displayData"
+        android:text="Display" />
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+</RelativeLayout>
