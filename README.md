@@ -4,23 +4,23 @@ The above folders contain the java and res folder items required for that applic
 
 The sequence of the applications is as follows:
 
-BMI_App
-CoffeeBuzz
-Database_Application
-Event_Listener_App
-Fragements_App
-Gestures_App
-Hello_World_App
-Image_Effects_App
-Input_App
-Intent_Application
-ListView_App
-MyCameraApp
-MyVideoApp
-Notification_App
-Overflow_Menu_App
-Services_App
-Shared_Preferences_App
-StopWatch_App
-Threads_App
-Workout_Advisor_App
+1.  BMI_App
+2.  CoffeeBuzz
+3.  Database_Application
+4.  Event_Listener_App
+5.  Fragements_App
+6.  Gestures_App
+7.  Hello_World_App
+8.  Image_Effects_App
+9.  Input_App
+10. Intent_Application
+11. ListView_App
+12. MyCameraApp
+13. MyVideoApp
+14. Notification_App
+15. Overflow_Menu_App
+16. Services_App
+17. Shared_Preferences_App
+18. StopWatch_App
+19. Threads_App
+20. Workout_Advisor_App
